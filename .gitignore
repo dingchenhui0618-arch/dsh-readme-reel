@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.env
+.env.*
+.frames/
+.reel-frames/
+docs/reel/.frames/

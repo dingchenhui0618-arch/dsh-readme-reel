@@ -1,0 +1,64 @@
+{
+  "name": "dsh-readme-reel",
+  "version": "0.1.0",
+  "createdAt": "2026-10-20T01:41:33.972Z",
+  "title": "dsh-readme-reel · 首屏短片",
+  "durationMs": 6000,
+  "frameCount": 180,
+  "fps": 30,
+  "size": {
+    "width": 1100,
+    "height": 626
+  },
+  "loop": true,
+  "transition": "fade",
+  "transitionMs": 360,
+  "storyboard": {
+    "source": "file",
+    "path": "docs/storyboard.json"
+  },
+  "scenes": [
+    {
+      "index": 0,
+      "src": "docs/shots/shot-01-home.png",
+      "holdMs": 1318,
+      "layout": "plain"
+    },
+    {
+      "index": 1,
+      "src": "docs/shots/shot-02-conversation.png",
+      "holdMs": 1318,
+      "layout": "plain"
+    },
+    {
+      "index": 2,
+      "src": "docs/shots/shot-03-panel.png",
+      "holdMs": 2284,
+      "layout": "plain"
+    }
+  ],
+  "outputs": {
+    "webm": {
+      "file": "reel.webm",
+      "path": "docs/reel/reel.webm",
+      "bytes": 189545,
+      "sha256": "c3f632e4c7e87cd1522f0227ebba0e0cd144ab55831ada1a879b5522e4659bdd"
+    },
+    "gif": {
+      "file": "reel.gif",
+      "path": "docs/reel/reel.gif",
+      "bytes": 564962,
+      "sha256": "2d9e77625abaae772acea70043067e879c04752d23ce428a41a87052e916532e"
+    },
+    "cover": {
+      "file": "cover.png",
+      "path": "docs/reel/cover.png",
+      "bytes": 115238,
+      "sha256": "32f9cce703321fe758c3b823130ee3d0bbab3004637fc871ec89058dbd42b3b3"
+    }
+  },
+  "ffmpeg": {
+    "version": "9.0.1-full_build-www.gyan.dev"
+  },
+  "elapsedMs": 15281
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "dsh-readme-reel · 首屏短片",
+  "durationMs": 6000,
+  "fps": 30,
+  "size": { "width": 1100, "height": 626 },
+  "loop": true,
+  "layout": "plain",
+  "transition": "fade",
+  "transitionMs": 360,
+  "scenes": [
+    { "src": "docs/shots/shot-01-home.png", "hold": 1500, "title": "在 DSH 里打开一个会话" },
+    { "src": "docs/shots/shot-02-conversation.png", "hold": 1500, "title": "切到「首屏短片」页签" },
+    { "src": "docs/shots/shot-03-panel.png", "hold": 2600, "title": "选截图、生成、复制 Markdown" }
+  ]
+}
