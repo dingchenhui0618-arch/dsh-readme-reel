@@ -63,6 +63,8 @@ dsh plugin --profile <你的 profile> add D:\Projects\dsh-readme-reel
 
 装好后重启 DSH，对话视图里多一个「首屏短片」Tab。桌面端在应用里装插件，profile 由应用自己管理，不用手敲上面的命令。
 
+插件挂在 DSH 的 `webServer` 服务上，所以 profile 里要有 Web GUI（`dsh-web-app` 那一套）：桌面端和常规 Web profile 自带；纯 CLI 手建的空 profile 里它会停在 `pending (waiting for service: webServer)`，那是 DSH 的依赖语义，不是装失败了。
+
 **还没发布到 npm**，所以上面只有 GitHub 与本地路径两种装法；仓库里的 `lib/` 是入库的构建产物，装的时候不编译、不跑构建脚本。
 
 只想用命令行（不进 DSH）也可以：
