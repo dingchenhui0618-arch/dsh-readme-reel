@@ -1,6 +1,11 @@
 # dsh-readme-reel
 
+[![CI](https://github.com/dingchenhui0618-arch/dsh-readme-reel/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dingchenhui0618-arch/dsh-readme-reel/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 把插件仓库里的截图排成一条 **6 秒无声循环短片**：透明背景 webm + 通用 gif + 封面帧，直接放进 README 首屏或插件市场条目。
+
+> 用着还行的话，点个 ⭐ 就够了——插件市场的「搜插件」按 GitHub star 排序，star 是这个插件能被人翻到的唯一杠杆。
 
 ![dsh-readme-reel 生成的 6 秒循环短片：三个真实的 DSH Web UI 截图依次淡入](docs/reel/reel.gif)
 

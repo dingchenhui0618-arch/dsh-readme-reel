@@ -1,5 +1,16 @@
 # Changelog
 
+## [Unreleased]
+
+### 文档与工程
+
+- 新增 `SECURITY.md`：写清它读项目目录里的哪些 PNG、产物覆盖哪四个固定文件名、
+  `isInside()` 只做字面路径检查（没有 `realpath`）、ffmpeg 的发现与执行边界，
+  以及 `/dsh-readme-reel` 路由没有自己的鉴权。
+- 新增 `.github/workflows/ci.yml`：Ubuntu + Windows × Node 22/24，构建 `lib/`、
+  校验 `lib/` 与 `src/` 一致、跑 `node --test`。
+- README 顶部补 CI 与 license badge、star 引导一句。
+
 ## 0.1.0
 
 首个版本：把插件仓库的截图排成一条 6 秒无声循环短片。
